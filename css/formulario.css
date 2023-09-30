@@ -1,0 +1,59 @@
+form {
+  width: 100%;
+  max-width: 50rem;
+}
+
+input::placeholder {
+  color: #0b0b3f;
+}
+
+textarea::placeholder {
+  color: #0b0b3f;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.7rem;
+  background-color: #edeaea43;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+input,
+textarea {
+  margin-bottom: 0.7rem;
+  border: 0.1rem solid transparent;
+  border-radius: 1.23rem;
+  transition: border-color 0.3s;
+  box-shadow: 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: rgb(187, 183, 193);
+}
+
+label {
+  margin-bottom: 0.2rem;
+  color: rgb(187, 183, 193);
+}
+
+textarea {
+  min-height: 12.5rem;
+  resize: vertical;
+}

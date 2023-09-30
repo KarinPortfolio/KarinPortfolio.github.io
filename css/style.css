@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  z-index: 10;
+}
+
+nav a {
+  margin-right: 1.3em;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+li {
+  float: right;
+  padding: 12px 5px 9px 12px;
+  text-align: center;
+  list-style: none;
+}
+
+li :hover {
+  background-color: rgba(220, 223, 224, 0.475);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #1a2f35, #333b96b5 50%);
+  color: #fff;
+  flex-direction: column;
+}
+
+#nome {
+  padding: 1rem;
+  width: 40%;
+  font-family: 'Martian Mono', monospace;
+  background: #C5CFCE;
+  background: -webkit-linear-gradient(to right, #C5CFCE 0%, #736d92 100%);
+  background: -moz-linear-gradient(to right, #C5CFCE 0%, #736d92 100%);
+  background: linear-gradient(to right, #C5CFCE 0%, #736d92 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.interno0 {
+  width: 50%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.interno1 {
+  padding-top: 9.2rem;
+  padding-bottom: 9.2rem;
+}
+
+.coluna {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  align-items: center;
+  text-align: justify;
+  height: auto;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+.figura {
+  float: right;
+  width: 250px;
+  padding: 4rem;
+  border-radius: 20em;
+  cursor: pointer;
+}
+
+.pop {
+  width: 400px;
+}
+
+.pop:hover {
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.contato {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+button {
+  border: 1px dotted rgb(203, 202, 201);
+  background-color: #007bff;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  transition: 0.115s;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: #00e0ff;
+  box-shadow: 0.2rem 0.2rem #FFFFFF;
+  translate: -2px -2px;
+}
+
+button a {
+  color: #0b0b3f;
+}
+
+#detalhes {
+  color: rgb(203, 202, 201);
+}
+
+footer {
+  position: block;
+  bottom: 0;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  font-size: 0.8em;
+  font-weight: 200;
+  background-color: rgba(41, 51, 56, 0.587);
+}
+
+footer a {
+  color: rgb(140, 140, 162);
+}
+
+@media only screen and (max-width: 480px) {
+  nav a {
+    font-size: 15px;
+  }
+
+  .coluna {
+    padding-left: 1rem;
+    width: 95%;
+
+  }
+
+  .pop {
+    padding-left: 1rem;
+    width: 90%;
+  }
+
+  .figura {
+    width: 50px;
+    padding: 1rem;
+  }
+}
